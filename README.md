@@ -2,7 +2,7 @@
 
 ## What is it for?
 
-You can use this script to make a request to Google Maps API to get a CSV of nearby places (With the maximum radius allawed of 50 000 meters).
+You can use this script to make a request to Google Maps API to get a CSV of nearby places (Using the maximum radius allawed of 50 000 meters).
 
 ## How to run it?
 
