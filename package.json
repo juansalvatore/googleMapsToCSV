@@ -1,0 +1,15 @@
+{
+  "name": "node_googlemapsapi",
+  "version": "1.0.0",
+  "description": "Creates a new file with list of banks",
+  "main": "banks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Salvatore",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jsonexport": "^2.3.0"
+  }
+}

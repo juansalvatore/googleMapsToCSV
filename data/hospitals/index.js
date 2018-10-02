@@ -1,0 +1,3 @@
+/*
+    A list of hospitals will be saved in this folder
+*/
