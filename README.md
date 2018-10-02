@@ -1,4 +1,4 @@
-# Google Map CSV Creator
+# Google Maps CSV Creator
 
 ## What is it for?
 
