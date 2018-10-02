@@ -1,15 +1,15 @@
-# Google Map CSV Creator
+# Google Maps CSV Creator
 
 ## What is it for?
 
-You can use this script to make a request to Google Map's API to get a CSV of nearby places (With the maximum radius allawed of 50 000 meters).
+You can use this script to make a request to Google Maps API to get a CSV of nearby places (Using the maximum radius allawed of 50 000 meters).
 
 ## How to run it?
 
 First you should:
 `npm install`
 
-Second you should create a file named keys.js inside ./config, copy and paste the contents inside keys_dev.js and finally replace the string GOOGLE_MAPS_API_KEY with your Google Maps API key.
+Second you should create a file named keys.js inside `./config`, copy and paste the contents inside `keys_dev.js` and finally replace the string `GOOGLE_MAPS_API_KEY` with your Google Maps API key.
 
 ### Arguments
 
