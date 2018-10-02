@@ -20,14 +20,14 @@ const createCSV = async () => {
     const res = await axios.get(url)
     const data = []
     const content = res.data.results
-    content.forEach(bank => {
-      const newBank = {
-        name: bank.name,
-        vicinity: bank.vicinity,
-        lat: bank.geometry.location.lat,
-        lng: bank.geometry.location.lng,
+    content.forEach(item => {
+      const newItem = {
+        name: item.name,
+        vicinity: item.vicinity,
+        lat: item.geometry.location.lat,
+        lng: item.geometry.location.lng,
       }
-      data.push(newBank)
+      data.push(newItem)
     })
     jsonexport(data, function(err, csv) {
       if (err) return console.log(err)
