@@ -9,7 +9,7 @@ You can use this script to make a request to Google Maps API to get a CSV of nea
 First you should:
 `npm install`
 
-Second you should create a file named keys.js inside ./config, copy and paste the contents inside keys_dev.js and finally replace the string GOOGLE_MAPS_API_KEY with your Google Maps API key.
+Second you should create a file named keys.js inside `./config`, copy and paste the contents inside `keys_dev.js` and finally replace the string `GOOGLE_MAPS_API_KEY` with your Google Maps API key.
 
 ### Arguments
 
