@@ -1,6 +1,4 @@
 /*
-  Create a CSV of types: Bank, Hospital or Restaurant 
-  
   To run the script:
   node index.js lat,lng file_name types
 
