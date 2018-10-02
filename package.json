@@ -9,6 +9,7 @@
   "author": "Juan Salvatore",
   "license": "MIT",
   "dependencies": {
+    "asyncawait": "^1.0.7",
     "axios": "^0.18.0",
     "jsonexport": "^2.3.0"
   }

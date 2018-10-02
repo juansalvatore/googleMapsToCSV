@@ -5,7 +5,8 @@
   eg:
   node index.js -34.7663315,-58.442647 lomas restaurant
 */
-
+const async = require('asyncawait/async');
+const await = require('asyncawait/await');
 const axios = require('axios')
 const fs = require('fs')
 var jsonexport = require('jsonexport')
