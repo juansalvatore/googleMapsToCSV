@@ -16,9 +16,7 @@ const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?locati
   process.argv[2]
 }&radius=50000&type=${process.argv[4]}&key=${API_KEY}`
 
-const createCSV = async () => {
-  try {
-    const res = await axios.get(url)
+axios.get(url).then(res => {
     const data = []
     const content = res.data.results
     content.forEach(item => {
@@ -43,8 +41,6 @@ const createCSV = async () => {
         }
       )
     })
-  } catch (err) {
+  }).catch (err => {
     console.log(err)
-  }
-}
-createCSV()
+  })
